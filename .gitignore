@@ -1,0 +1,24 @@
+# Exclude wp-config.php (contains sensitive database credentials)
+wp-config.php
+
+# Exclude the uploads directory (contains user-uploaded media)
+wp-content/uploads/
+
+# Exclude cache and upgrade directories
+wp-content/cache/
+wp-content/upgrade/
+
+# Exclude debug log files
+debug.log
+
+# Exclude node_modules if using any JS build tools
+node_modules/
+
+# Exclude environment variables file
+.env
+
+# Exclude temporary files
+*.log
+*.tmp
+
+wp-content/plugins/mailpoet/lib/Cron/Workers/Beamer.php
